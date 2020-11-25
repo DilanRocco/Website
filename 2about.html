@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="2about.css">
+<title>about</title>
+  </head>
+  <body>
+<div class = "topnav" id = "myTopnav">
+    <a href="index.html" class = "active">home</a>
+    <a href="1occupation.html" class = "news">occupation</a>
+    <a href="2about.html" class = "contact">about</a>
+    <a href="3contact.html" class = "about">contact</a>
+    <a href="javascript:void(0);" style="font-size:17px;" class ="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+  <main>
+    <header>Dilan Piscatello</header>
+      <p>Dilan Piscatello was born in 2003 and has always had an inclination for computing and design.
+        He is currently working on apps and websites for the mass. He has aspriations to move to New York City in the future to pursue his dreams.
+        Dilan is an IB Diploma candiate and hopes to complete the full diploma. He has Swift, Java, Python, HTML and CSS skills.
+
+      </p>
+</main>
+  <script>
+function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+          x.className += " responsive";
+      } else {
+          x.className = "topnav";
+      }
+  }
+  </script>
+
+</body>
+</html>

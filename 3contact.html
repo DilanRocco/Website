@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="3contact.css">
+    <title>projects</title>
+  </head>
+  <body>
+    <div class = "topnav" id = "myTopnav">
+      <a href="index.html" class = "active">home</a>
+      <a href="1occupation.html" class = "news">occupation</a>
+      <a href="2about.html" class = "contact">about</a>
+      <a href="3contact.html" class = "about">contact</a>
+  <a href="javascript:void(0);" style="font-size:17px;" class ="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<main>
+<div class = "email">
+<p class = "head">Contact: </p>
+<p>dilan@piscatello.com </p>
+</div>
+</main>
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+</body>
+</html>
